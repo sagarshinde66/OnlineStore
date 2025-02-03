@@ -1,0 +1,15 @@
+D:\Project\session\new\OnlineStore\Application\bin\Debug\net8.0\Online.Application.deps.json
+D:\Project\session\new\OnlineStore\Application\bin\Debug\net8.0\Online.Application.dll
+D:\Project\session\new\OnlineStore\Application\bin\Debug\net8.0\Online.Application.pdb
+D:\Project\session\new\OnlineStore\Application\bin\Debug\net8.0\OnlineStore.Domain.dll
+D:\Project\session\new\OnlineStore\Application\bin\Debug\net8.0\OnlineStore.Domain.pdb
+D:\Project\session\new\OnlineStore\Application\obj\Debug\net8.0\Online.Application.csproj.AssemblyReference.cache
+D:\Project\session\new\OnlineStore\Application\obj\Debug\net8.0\Online.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\session\new\OnlineStore\Application\obj\Debug\net8.0\Online.Application.AssemblyInfoInputs.cache
+D:\Project\session\new\OnlineStore\Application\obj\Debug\net8.0\Online.Application.AssemblyInfo.cs
+D:\Project\session\new\OnlineStore\Application\obj\Debug\net8.0\Online.Application.csproj.CoreCompileInputs.cache
+D:\Project\session\new\OnlineStore\Application\obj\Debug\net8.0\Online.A.43C9D0C1.Up2Date
+D:\Project\session\new\OnlineStore\Application\obj\Debug\net8.0\Online.Application.dll
+D:\Project\session\new\OnlineStore\Application\obj\Debug\net8.0\refint\Online.Application.dll
+D:\Project\session\new\OnlineStore\Application\obj\Debug\net8.0\Online.Application.pdb
+D:\Project\session\new\OnlineStore\Application\obj\Debug\net8.0\ref\Online.Application.dll
