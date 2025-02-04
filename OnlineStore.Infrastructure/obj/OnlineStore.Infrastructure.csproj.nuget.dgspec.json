@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\session\\new\\OnlineStore\\Infrastructure\\OnlineStore.Infrastructure.csproj": {}
+    "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Project\\session\\new\\OnlineStore\\Infrastructure\\OnlineStore.Infrastructure.csproj": {
+    "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\session\\new\\OnlineStore\\Infrastructure\\OnlineStore.Infrastructure.csproj",
-        "projectName": "OnlineStore.Infrastructure",
-        "projectPath": "D:\\Project\\session\\new\\OnlineStore\\Infrastructure\\OnlineStore.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj",
+        "projectName": "OnlineStore.Domain",
+        "projectPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj",
         "packagesPath": "C:\\Users\\sagar.shinde-c\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\session\\new\\OnlineStore\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,11 +31,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
-                "projectPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -73,14 +69,14 @@
         }
       }
     },
-    "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+    "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj",
-        "projectName": "OnlineStore.Domain",
-        "projectPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj",
+        "projectUniqueName": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj",
+        "projectName": "OnlineStore.Infrastructure",
+        "projectPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\sagar.shinde-c\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\obj\\",
+        "outputPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,7 +96,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
+                "projectPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

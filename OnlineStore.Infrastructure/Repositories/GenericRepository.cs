@@ -24,7 +24,9 @@ namespace OnlineStore.Infrastructure.Repositories
             }
         }
 
-        public List<T> GetAll() => _items.ToList();
+        public List<T> GetAll() { 
+            return _items.ToList(); 
+        }
 
         public T Add(T entity)
         {
@@ -41,7 +43,7 @@ namespace OnlineStore.Infrastructure.Repositories
 
         public T GetById(int id)
         {
-            throw new NotImplementedException();
+            return _items[id];
         }
 
         public T Update(T entity)

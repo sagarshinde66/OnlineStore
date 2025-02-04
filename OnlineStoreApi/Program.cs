@@ -1,5 +1,5 @@
 
-using Online.Application.Services;
+using OnlineStore.Application.Services;
 using OnlineStore.Domain.Interfaces;
 using OnlineStore.Infrastructure.Repositories;
 

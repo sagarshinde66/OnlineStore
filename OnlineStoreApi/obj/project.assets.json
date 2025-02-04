@@ -89,17 +89,17 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Online.Application/1.0.0": {
+      "OnlineStore.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "OnlineStore.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Online.Application.dll": {}
+          "bin/placeholder/OnlineStore.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Online.Application.dll": {}
+          "bin/placeholder/OnlineStore.Application.dll": {}
         }
       },
       "OnlineStore.Domain/1.0.0": {
@@ -476,10 +476,10 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "Online.Application/1.0.0": {
+    "OnlineStore.Application/1.0.0": {
       "type": "project",
-      "path": "../Application/Online.Application.csproj",
-      "msbuildProject": "../Application/Online.Application.csproj"
+      "path": "../OnlineStore.Application/OnlineStore.Application.csproj",
+      "msbuildProject": "../OnlineStore.Application/OnlineStore.Application.csproj"
     },
     "OnlineStore.Domain/1.0.0": {
       "type": "project",
@@ -488,13 +488,13 @@
     },
     "OnlineStore.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Infrastructure/OnlineStore.Infrastructure.csproj",
-      "msbuildProject": "../Infrastructure/OnlineStore.Infrastructure.csproj"
+      "path": "../OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj",
+      "msbuildProject": "../OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Online.Application >= 1.0.0",
+      "OnlineStore.Application >= 1.0.0",
       "OnlineStore.Domain >= 1.0.0",
       "OnlineStore.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
@@ -532,14 +532,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Project\\session\\new\\OnlineStore\\Application\\Online.Application.csproj": {
-              "projectPath": "D:\\Project\\session\\new\\OnlineStore\\Application\\Online.Application.csproj"
-            },
-            "D:\\Project\\session\\new\\OnlineStore\\Infrastructure\\OnlineStore.Infrastructure.csproj": {
-              "projectPath": "D:\\Project\\session\\new\\OnlineStore\\Infrastructure\\OnlineStore.Infrastructure.csproj"
+            "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Application\\OnlineStore.Application.csproj": {
+              "projectPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Application\\OnlineStore.Application.csproj"
             },
             "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj": {
               "projectPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Domain\\OnlineStore.Domain.csproj"
+            },
+            "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj": {
+              "projectPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj"
             }
           }
         }

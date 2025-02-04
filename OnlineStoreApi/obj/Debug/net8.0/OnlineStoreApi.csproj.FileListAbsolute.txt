@@ -10,12 +10,12 @@ D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\Microsoft.Ope
 D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\Online.Application.dll
+D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\OnlineStore.Application.dll
 D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\OnlineStore.Domain.dll
 D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\OnlineStore.Infrastructure.dll
-D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\Online.Application.pdb
-D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\OnlineStore.Infrastructure.pdb
+D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\OnlineStore.Application.pdb
 D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\OnlineStore.Domain.pdb
+D:\Project\session\new\OnlineStore\OnlineStoreApi\bin\Debug\net8.0\OnlineStore.Infrastructure.pdb
 D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\OnlineStoreApi.csproj.AssemblyReference.cache
 D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\OnlineStoreApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\OnlineStoreApi.AssemblyInfoInputs.cache
@@ -23,6 +23,7 @@ D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\OnlineStoreAp
 D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\OnlineStoreApi.csproj.CoreCompileInputs.cache
 D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\OnlineStoreApi.MvcApplicationPartsAssemblyInfo.cs
 D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\OnlineStoreApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\OnlineStoreApi.sourcelink.json
 D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\scopedcss\bundle\OnlineStoreApi.styles.css
 D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\staticwebassets.build.json
 D:\Project\session\new\OnlineStore\OnlineStoreApi\obj\Debug\net8.0\staticwebassets.development.json

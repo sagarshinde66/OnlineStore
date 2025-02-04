@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\session\\new\\OnlineStore\\Infrastructure\\OnlineStore.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj",
       "projectName": "OnlineStore.Infrastructure",
-      "projectPath": "D:\\Project\\session\\new\\OnlineStore\\Infrastructure\\OnlineStore.Infrastructure.csproj",
+      "projectPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Infrastructure\\OnlineStore.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\sagar.shinde-c\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\session\\new\\OnlineStore\\Infrastructure\\obj\\",
+      "outputPath": "D:\\Project\\session\\new\\OnlineStore\\OnlineStore.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

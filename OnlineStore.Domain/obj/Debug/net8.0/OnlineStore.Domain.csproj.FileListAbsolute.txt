@@ -5,6 +5,7 @@ D:\Project\session\new\OnlineStore\OnlineStore.Domain\obj\Debug\net8.0\OnlineSto
 D:\Project\session\new\OnlineStore\OnlineStore.Domain\obj\Debug\net8.0\OnlineStore.Domain.AssemblyInfoInputs.cache
 D:\Project\session\new\OnlineStore\OnlineStore.Domain\obj\Debug\net8.0\OnlineStore.Domain.AssemblyInfo.cs
 D:\Project\session\new\OnlineStore\OnlineStore.Domain\obj\Debug\net8.0\OnlineStore.Domain.csproj.CoreCompileInputs.cache
+D:\Project\session\new\OnlineStore\OnlineStore.Domain\obj\Debug\net8.0\OnlineStore.Domain.sourcelink.json
 D:\Project\session\new\OnlineStore\OnlineStore.Domain\obj\Debug\net8.0\OnlineStore.Domain.dll
 D:\Project\session\new\OnlineStore\OnlineStore.Domain\obj\Debug\net8.0\refint\OnlineStore.Domain.dll
 D:\Project\session\new\OnlineStore\OnlineStore.Domain\obj\Debug\net8.0\OnlineStore.Domain.pdb

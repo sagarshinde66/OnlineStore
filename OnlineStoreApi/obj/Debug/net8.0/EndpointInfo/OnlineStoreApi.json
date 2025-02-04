@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Users": {
+    "/api/Users/getall": {
       "get": {
         "tags": [
           "Users"
@@ -41,7 +41,49 @@
             }
           }
         }
-      },
+      }
+    },
+    "/api/Users/get/{id}": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Users/add": {
       "post": {
         "tags": [
           "Users"
@@ -87,7 +129,9 @@
             }
           }
         }
-      },
+      }
+    },
+    "/api/Users/update": {
       "put": {
         "tags": [
           "Users"
@@ -135,45 +179,7 @@
         }
       }
     },
-    "/api/Users/{id}": {
-      "get": {
-        "tags": [
-          "Users"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/User"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/User"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/User"
-                }
-              }
-            }
-          }
-        }
-      },
+    "/api/Users/delete/{id}": {
       "delete": {
         "tags": [
           "Users"

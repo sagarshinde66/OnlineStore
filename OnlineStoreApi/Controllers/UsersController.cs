@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Online.Application.Services;
+using OnlineStore.Application.Services;
 using OnlineStore.Domain.Entites;
 
 namespace OnlineStoreApi.Controllers
@@ -16,20 +16,32 @@ namespace OnlineStoreApi.Controllers
         }
 
 
-        [HttpGet]
-        public List<User> GetAll() => _userService.GetAll();
+        [HttpGet("getall")]
+        public List<User> GetAll() {
+           return _userService.GetAll();
+        }
 
-        [HttpGet("{id}")]
-        public User GetUser(int id) => _userService.GetUserById(id);
+        [HttpGet("get/{id}")]
+        public User GetUser(int id) { 
+            return _userService.GetUserById(id); 
+        }
 
-        [HttpPost]
-        public User AddUser(User user) => _userService.AddUser(user);
+        [HttpPost("add")]
+        public User AddUser(User user) {
+            return _userService.AddUser(user); 
+        }
 
-        [HttpPut]
-        public User UpdateUser(User user) => _userService.UpdateUser(user);
+        [HttpPut("update")]
+        public User UpdateUser(User user)
+        {
+            return _userService.UpdateUser(user);
+        }
 
-        [HttpDelete("{id}")]
-        public User DeleteUser(int id) => _userService.DeleteUser(id);
+
+        [HttpDelete("delete/{id}")]
+        public User DeleteUser(int id) { 
+            return _userService.DeleteUser(id); 
+        }
     }
 }
 
